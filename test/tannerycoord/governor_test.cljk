@@ -1,5 +1,5 @@
 (ns tannerycoord.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [tannerycoord.store :as store]
             [tannerycoord.advisor :as advisor]
             [tannerycoord.governor :as governor]))
